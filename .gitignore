@@ -1,41 +1,25 @@
-# Compiled Lua sources
-luac.out
+# Ignore all log files and temp files
+*.log
+*.tmp
 
-# luarocks build files
-*.src.rock
-*.zip
-*.tar.gz
+# Ignore Docker-related files and directories
+db_data/
+docker-compose.override.yml
 
-# Object files
-*.o
-*.os
-*.ko
-*.obj
-*.elf
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
 
-# Precompiled Headers
-*.gch
-*.pch
+# Ignore IDE-specific files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-*.def
-*.exp
+# Ignore node_modules and other dependency directories
+node_modules/
+bower_components/
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
+# Ignore system-specific files
+*.swp
+*~
